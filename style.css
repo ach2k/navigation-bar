@@ -46,8 +46,10 @@ li {
 
 a {
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .a-first {
@@ -64,8 +66,11 @@ a:hover {
     display: flex;
     background-color: #123;
     border-radius: 2rem 2rem;
+    justify-content: space-between;
 }
 
-
+.a-last {
+    border-radius: 0 2rem 2rem 0;
+}
 
 
